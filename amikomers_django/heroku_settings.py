@@ -2,7 +2,7 @@ import os
 from .settings import *
 
 DEBUG = True
-ALLOWED_HOSTS = ['amikomers-backend.herokuapp.com']
+ALLOWED_HOSTS = ['amikomers-django.herokuapp.com']
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Ref: https://devcenter.heroku.com/articles/django-assets
