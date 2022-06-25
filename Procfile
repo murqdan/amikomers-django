@@ -1,0 +1,1 @@
+web: gunicorn amikomers_django.heroku_wsgi --log-file -
